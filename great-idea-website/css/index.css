@@ -73,11 +73,33 @@ body {
 	display: inline-block;
 }
 
-header {
+nav {
+	text-align: center;
+	margin-bottom: 75px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+.logo { 
+	padding-left: 45px;
+	transform: translate(0px,10px);
 }
 
 .topcontent {
 	display: inline-block;
+	border-top: 2px solid black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 100px;
+}
+
+div .buttoni {
+	font-size: 18px;
+	transform: translate(0px, -50px);
+	width: 200px;
+	background: white;
+	border: solid black 2px;
+
 }
 
 .half {
@@ -85,28 +107,40 @@ header {
 	display: inline-block;
 }
 
-header {
+.boi {
+	max-width: 876px;
 	display: inline-block;
+	margin-left: 65px;
+	
 }
 
-body {
+header {
 	display: inline-block;
+	text-align: center;
 }
+
+
+
 
 .headerbutton {
 	width: 47%;
 	display: inline-block;
-	text-align: center;
+	
 	font-size: 75px;
+	padding-right: 100px;
+
 }
 
 .circleimage {
 	width: 47%;
 	display: inline-block;
+	padding-left: 50px
+	
 }
 
 .botcontent {
 	display: inline-block;
+	padding-bottom: 35px;
 
 }
 
@@ -122,18 +156,29 @@ body {
 }
 
 a {
-	padding: 0px 45px 0px 45px;
+	padding: 0px 30px 0px 30px;
 	color: black;
 	text-decoration: none;
 
 }
 
 .middle-img {
-	margin-left: 100px;
+	margin-bottom: 45px;
 	margin-right: auto;
 	display: inline-block;
 }
 
 section {
 	display: inline-block;
+}
+
+.contact {
+	padding-top: 35px;
+	border-top: 2px solid black;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 45px;
 }
